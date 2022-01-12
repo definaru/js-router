@@ -1,3 +1,8 @@
+/*
+* Author: iQs Solution <work.dev.i@yandex.ru>
+* Website: https://defina.ru
+* LICENSE: BSD 3-Clause "New" or "Revised" License
+*/ 
 let menu = [
     {
         name: 'About',
