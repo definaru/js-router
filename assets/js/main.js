@@ -206,7 +206,10 @@ window.addEventListener('popstate', function(e) {
 	updateState(e.state);
 });
 
-//window.addEventListener('load', updateState);
+window.addEventListener('load', function(e) {
+	updateState(e.state);
+});
+
 navigatorElement.addEventListener('click', function(e) {
 	let state;
 	let title = 'Home';
@@ -220,8 +223,4 @@ navigatorElement.addEventListener('click', function(e) {
 	updateState(state);
 	console.table(state, state.title, state.page);
 	e.preventDefault();
-});	
-
-
-
-
+});
