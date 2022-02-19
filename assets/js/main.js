@@ -110,7 +110,7 @@ const Catalog = () => {
     for (let items in catalog) {
         result += `
             <div class="card">
-                <img src="${catalog[items].image}" style="width:180px;" alt="s" />
+                <img src="${catalog[items].image}" style="width:100%;" alt="s" />
                 <h4>${catalog[items].header}</h4>
                 <p>${catalog[items].text}</p>
             </div>
